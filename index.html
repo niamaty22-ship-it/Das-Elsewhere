@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Das Elsewhere | A Little Universe</title>
+  <meta name="description" content="Explore a whimsical universe, experiment with science, and discover new worlds.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <!-- WELCOME SCREEN -->
+    <section class="screen welcome-screen active" id="welcome-screen">
+
+      <div class="star-layer" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Das Elsewhere home">
+          <span class="brand-icon">✳</span>
+          <span>Das Elsewhere</span>
+        </a>
+        <span class="top-note">a tiny universe to explore ✧</span>
+      </header>
+
+      <!-- Decorative planets are created by JavaScript -->
+      <div class="floating-planets" id="floating-planets"
+           aria-hidden="true"></div>
+
+
+<div class="floating-objects" id="floating-objects"
+     aria-hidden="true"></div>
+
+
+      <div class="welcome-content">
+        <span class="eyebrow">
+          <span class="status-dot"></span>
+          YOUR LITTLE UNIVERSE AWAITS
+        </span>
+
+        
+<h1>
+  Das
+  <span>Elsewhere<span class="title-star"> ✦</span></span>
+</h1>
+
+
+        <p class="welcome-description">
+          Eight worlds. Countless what-ifs.
+          <br>
+          One little universe waiting for you.
+        </p>
+
+        <p class="welcome-detail">
+          Wander among the planets, experiment with the wonders
+          of space, and unlock new worlds through discovery.
+        </p>
+
+        <button class="play-button" id="play-button">
+          <span>Play now</span>
+          <span class="button-arrow">↗</span>
+        </button>
+
+        <p class="welcome-footnote">
+          made of stardust & curiosity
+        </p>
+      </div>
+
+      <div class="bottom-decoration" aria-hidden="true">
+        <span>✧</span>
+        <span>☾</span>
+        <span>✳</span>
+      </div>
+    </section>
+
+    <!-- GALAXY SCREEN -->
+    <section class="screen galaxy-screen" id="galaxy-screen">
+
+      <header class="topbar">
+        <a class="brand" href="#" id="home-button">
+          <span class="brand-icon">✳</span>
+          <span>cosmic garden</span>
+        </a>
+        <span class="progress-label" id="progress-label">
+          1 / 8 worlds discovered
+        </span>
+      </header>
+
+      <div class="galaxy-content">
+        <span class="eyebrow">✦ YOUR CELESTIAL COLLECTION ✦</span>
+        <h2>Choose your little world.</h2>
+        <p class="galaxy-description">
+          Every planet has a secret. Where will curiosity take you?
+        </p>
+
+        
+<div class="galaxy-map" id="galaxy-map">
+  <div class="orbit-decoration orbit-one"></div>
+  <div class="orbit-decoration orbit-two"></div>
+  <div class="orbit-decoration orbit-three"></div>
+
+  <div class="galaxy-star galaxy-star-one">✦</div>
+  <div class="galaxy-star galaxy-star-two">✧</div>
+  <div class="galaxy-star galaxy-star-three">✳</div>
+  <div class="galaxy-star galaxy-star-four">·</div>
+  <div class="galaxy-star galaxy-star-five">✦</div>
+
+  <div class="planet-field" id="planet-field"></div>
+</div>
+
+
+        <p class="galaxy-hint">
+          ✧ Explore, experiment, and let your universe bloom. ✧
+        </p>
+      </div>
+
+      <!-- Planet information popup -->
+      <div class="planet-modal" id="planet-modal"
+           role="dialog" aria-modal="true"
+           aria-labelledby="modal-title" hidden>
+        <div class="modal-card">
+          <button class="modal-close" id="modal-close"
+                  aria-label="Close planet details">×</button>
+          <div class="modal-planet" id="modal-planet"></div>
+          <span class="eyebrow" id="modal-status">WORLD FILE</span>
+          <h2 id="modal-title">Planet name</h2>
+          <p id="modal-description"></p>
+          <p class="modal-fact" id="modal-fact"></p>
+
+<div id="mission-panel" class="mission-panel" hidden>
+  <p id="mission-story"></p>
+
+  <div class="mission-clue">
+    <strong>Field clue</strong>
+    <p id="mission-clue"></p>
+  </div>
+
+  <h3 id="mission-question"></h3>
+  <div id="mission-options" class="mission-options"></div>
+  <p id="mission-feedback" aria-live="polite"></p>
+  <button id="mission-continue" type="button" hidden>
+    Continue expedition →
+  </button>
+</div>
+
+          <button class="play-button modal-action"
+                  id="modal-action">Explore world ↗</button>
+        </div>
+      </div>
+
+    </section>
+
+<!-- SECRET ENDING -->
+<section class="ending-screen" id="ending-screen" hidden>
+  <div class="ending-stars" aria-hidden="true">✦　✧　⋆　☾　✧</div>
+
+  <div class="ending-content">
+    <span class="ending-eyebrow">✧ YOUR EXPEDITION IS COMPLETE ✧</span>
+
+    <h2>You've found your way through the stars.</h2>
+
+    <p>
+      Eight worlds. Eight mysteries. And a little more wonder
+      than when you began.
+    </p>
+
+    
+
+    <p class="ending-signature">
+      Keep looking up, little explorer. The universe is full of mysteries.
+    </p>
+
+    <button class="play-button" id="ending-replay" type="button">
+      Begin another expedition ↻
+    </button>
+
+    <button class="ending-return" id="ending-return" type="button">
+      Return to the galaxy
+    </button>
+  </div>
+</section>
+
+  </main>
+</body>
+</html>
+
