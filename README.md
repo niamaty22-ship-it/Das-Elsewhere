@@ -1,2 +1,2 @@
-# Das-All
-An interactive miniature universe where visitors become cosmic explorers. They discover strange planets, run little scientific experiments, complete space missions, and gradually grow their own living galaxy.
+# Das-Elsewhere
+An interactive miniature universe where visitors become cosmic explorers. They discover the 8 planets, complete space missions, until they gradually grow the whole galaxy.
