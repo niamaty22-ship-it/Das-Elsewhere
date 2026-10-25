@@ -10,6 +10,8 @@ With deep indigo skies, dusty-pink stars, peculiar floating objects, and secrets
 
 Because sometimes, the most interesting discoveries begin when you dare to look beyond the ordinary. 🌙
 
+<img width="1318" height="598" alt="image" src="https://github.com/user-attachments/assets/90baa2e1-4347-4669-a9b0-5f5f129f0889" />
+
 ## 🗝️ The Inspiration
 
 Since its the spooky season, i got inspired by the uncanny charm and handmade storybook atmosphere of *Coraline*, I wanted to create a world that feels familiar at first glance, but just a little strange when you look closer.
